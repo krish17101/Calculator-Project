@@ -1,0 +1,88 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .body{
+    background-color: #3B4664;
+    height: 100vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .upper{
+   background-color: #181F32;
+   border-radius: 8px;
+   padding: 10px;
+   height: 40px;
+   justify-content: center;
+   
+  }
+  .upper input{
+    
+   width: 200px;
+   height: 30px;
+   text-align: end;
+   font-size: 18px;
+   margin-top: 5px;
+   border: 1px solid black;
+   border-radius: 9px;
+   padding-right: 5px;
+   background-color: #181F32;
+   border: none;
+   outline: 0;
+   color: white;
+
+  }
+
+  .lower{
+   background-color: #181F32;
+   margin-top: 20px;
+   padding-top: 10px;
+   border-radius: 8px;
+
+  }
+
+  
+ .row{
+   
+    margin: 10px;
+ }
+ .button{
+    width: 48px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3B4664;
+ }
+ #deleteButton{
+   color: white;
+   background-color:#647299;
+   border: none;
+ }
+.buttonReset{
+    background-color:#647299;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom:13px; 
+    cursor: pointer;
+    color: white;
+}
+
+.buttonEqual{
+    background-color: #D13F30;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom:13px;    
+    cursor: pointer;
+   color: white;
+   
+    
+}
